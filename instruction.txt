@@ -1,0 +1,40 @@
+Activity:(s8)
+
+Create a basic web page with Bootstrap which includes the following:
+	-Your professional photo
+	-Your name
+	-Your occupation (Full Stack Web Developer)
+	-Your self-introductory description (3-4 sentences)
+
+By using our previous discussion and with the help of Bootstrap documentation, add the following style:
+	-Make the photo,name and occupation centered on the page.
+	-Make the self-introductory description, justify its text.
+	-Make the photo circular.
+	-Add spacings, like margins and paddings as necessary.
+
+
+Stretch Goals:
+Add a bootstrap navbar
+Add cards for projects
+Customize it. Make it yours.
+
+Pushing Instructions: (s8)
+
+Go to Gitlab:
+	-in your zuitt-projects folder and access b123 folder.
+	-inside your b123 folder, create a new project/repo called activity-s8-11
+	-untick the readme option
+	-copy the git url from the clone button of your activity-s8-11 repo.
+
+Go to Gitbash:
+	-go to your b123/activity-s8-11 folder
+	-initialize activity-s8-11 folder as a local repo: git init
+	-connect your local repo to our online repo: git remote add origin <gitURLOfOnlineRepo>
+	-add your updates to be committed: git add .
+	-commit your changes to be pushed: git commit -m "includes s8-act landing features"
+	-push your updates to your online repo: git push origin master
+
+Go to Boodle:
+	-copy the url of the home page for your b123/activity-s8-11 repo (URL on browser not the URL from clone button) and link it to boodle:
+
+	WD078-8 | Bootstrap - Introduction and Simple Styles
