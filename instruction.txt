@@ -38,3 +38,108 @@ Go to Boodle:
 	-copy the url of the home page for your b123/activity-s8-11 repo (URL on browser not the URL from clone button) and link it to boodle:
 
 	WD078-8 | Bootstrap - Introduction and Simple Styles
+
+
+Activity: (s9) Deadline at least: 4:50 PM
+
+Create a new projects section with two rows.
+	-Each row should have two equal sized columns
+	For the first row:
+		Medium to large screen:
+			Column with paragraph goes before the img.
+		Smallest Screen:
+			Picture goes first before the paragraph.
+			Both columns occupy 12 cols from the smallest screen.
+	For the Second row:
+		Medium to large screen:
+			Column with paragraph goes after the img.
+		Smallest Screen:
+			Picture goes first before the paragraph.
+			Both columns occupy 12 cols from the smallest screen.
+
+Create an other projects section with 1 row:
+	-Three equal sized columns
+		-Each column should have an image before the text
+		-You may use lorem ipsum for paragraph
+	-Each columns should occupy 12 columns in mobile.
+
+Add a bootstrap navbar (If you haven't added one.)
+
+All images must FIT their containers.
+
+Pushing Instructions: (s9)
+
+Update your activity-s8-11 online repo:
+
+Go to Gitbash:
+	-go to your b123/activity-s8-11 folder
+	-add your updates to be committed: git add .
+	-commit your changes to be pushed: git commit -m "includes s9-act project section"
+	-push your updates to your online repo: git push origin master
+
+Go to Boodle:
+	-copy the url of the home page for your b123/activity-s8-11 repo (URL on browser not the URL from clone button) and link it to boodle:
+
+	WD078-9 | Bootstrap - Grid System
+
+Activity: s10
+
+Create a tools section.
+-Create three divs
+	first div:
+	-contains the html image
+	-center the children with flex.(horizontally)
+	second div:
+	-contains the css and js images
+	-center the children with flex.(horizontally)
+	third div:
+	-add the images (Add only images found in the output.)
+	-center the images using flex.(horizontally)
+	-prevent the images from overflowing horizontally to the right side of the screen.
+-All imgs inside the flex parents/containers should be about 80px in width. (you may use external css or inline for now)
+
+Pushing Instructions: (s10)
+
+Update your activity-s8-11 online repo:
+
+Go to Gitbash:
+	-go to your b123/activity-s8-11 folder
+	-add your updates to be committed: git add .
+	-commit your changes to be pushed: git commit -m "includes s10-act tools section"
+	-push your updates to your online repo: git push origin master
+
+Go to Boodle:
+	-copy the url of the home page for your b123/activity-s8-11 repo (URL on browser not the URL from clone button) and link it to boodle:
+
+	WD078-10 | Bootstrap - Flex
+
+Activity: s11
+
+Navbar should have at least four links. 
+	A link to every section of our page. (home,projects,tools and contacts.)
+	Note: links can target elements' ids.
+
+Add a contact section
+	-Should have a google map (No overflow, you may use CSS.)
+	-bootstrap form
+
+Add a footer
+	-Should have your name
+	-A disclaimer
+
+Note: No Overflows. You may customize your activity but prioritize our main requirements.
+
+Pushing Instructions: (s11)
+
+Update your activity-s8-11 online repo:
+
+Go to Gitbash:
+	-go to your b123/activity-s8-11 folder
+	-add your updates to be committed: git add .
+	-commit your changes to be pushed: git commit -m "includes s11-act contact section"
+	-push your updates to your online repo: git push origin master
+
+Go to Boodle:
+	-copy the url of the home page for your b123/activity-s8-11 repo (URL on browser not the URL from clone button) and link it to boodle:
+
+	WD078-11 | Bootstrap - Components
