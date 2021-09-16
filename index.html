@@ -21,10 +21,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#landing">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tools">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -32,7 +38,7 @@
         <!-- end of navbar -->
         <!-- main content -->
         <div class="container-fluid mt-5 pt-4">
-            <div class="text-center">
+            <div class="text-center" id="landing">
                 <img src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae" class="rounded-circle" width="200">
                 <h2>Ada Lovelace</h2>
                 <h4>Full-Stack Web Developer</h4>
@@ -46,7 +52,7 @@
                 </p>
             </div>
             <!-- end of landing -->
-            <h2 class="text-center my-5">Projects</h2>
+            <h2 class="text-center my-5" id="projects">Projects</h2>
             <div class="card-deck">
               <div class="card">
                 <img src="https://place-puppy.com/300x300" class="card-img-top" alt="...">
@@ -146,7 +152,7 @@
             </div>
             <!-- end of other projects -->
             <!-- Tools Section Start -->
-            <div class="mb-4">
+            <div class="mb-4" id="tools">
 
                 <!-- Core Tools Section Start -->
                 <h3 class="text-center">Core Tools</h3>
@@ -178,45 +184,39 @@
                 <!-- Other Tools Section End -->
             </div>
             <!-- Tools Section End -->
-        </div>
-        <!-- contacts section -->
-        <div class="row">
-            <div class="col-md-6 my-4">
-                <h2 class="text-center">Find Us!</h2>
-                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=casswyn%20building,%20quezon%20city,%20philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            </div>
-            <div class="col-md-6 my-4">
-                <h2 class="text-center">Contact Us!</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="txt-email">Email:</label>
-                        <input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="txt-select">Example Select:</label>
-                        <select class="form-control" id="txt-select" name="sampleSelect">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="txt-textarea">Example TextArea</label>
-                        <textarea class="form-control" id="txt-textarea" rows="3">
-                        </textarea>
-                    </div>
-                    <button type="submit" class="btn btn-outline-primary">Submit</button>
-                    <button type="reset" class="btn btn-outline-danger">Reset</button>
-                </form>
+            <!-- contacts section -->
+            <div class="row" id="contact">
+                <div class="col-md-6 my-4">
+                    <h2 class="text-center">Find Us!</h2>
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=casswyn%20building,%20quezon%20city,%20philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                <div class="col-md-6 my-4">
+                    <h2 class="text-center">Contact Us!</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="txt-name">Name:</label>
+                            <input type="text" name="username" id="txt-name" placeholder="Enter Full Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt-email">Email:</label>
+                            <input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt-textarea">Message:</label>
+                            <textarea class="form-control" id="txt-textarea" rows="3">
+                            </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
+
         <!-- contacts end -->
         <footer class="p-3 bg-primary mt-5">
-            <p class="text-center text-white">This is our footer.</p>
+            <p class="text-center text-white">Ada Lovelace</p>
             <p class="text-center text-white">
-                You may add parting messages, info or even links for your users.
-                You can use fontawesome for icons.
+                &copy;All Rights Reserved.
             </p>
             <div class="d-flex justify-content-center">
             </div>
